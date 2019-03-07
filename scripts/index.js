@@ -37,7 +37,7 @@ const weatherInfo = [
     (`The wind speed is ${getWindSpeed(atlWeather)}.`),
 ]
 
-const weatherElement = document.querySelector(['data-weather']);
+const weatherElement = document.querySelector('[data-weather]');
 
 weatherInfo.forEach(function (info) {
     const newAnchor = document.createElement('div')
