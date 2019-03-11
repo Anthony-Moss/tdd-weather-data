@@ -2,15 +2,15 @@ html {
     background-color: #379683;
 }
 
-
-.temp.info div{
+.temp.info {
     text-align: center;
-    background-color: #05386b;
-    outline: 2px solid red;
     color: #EDF5E1;
     margin: 25px;
 }
 
-div .temp.info{
-    outline: 4px solid blue;
+.temp.info div{
+    background-color: #05386b;
+    color: #EDF5E1;
+    margin: 25px;
 }
+
